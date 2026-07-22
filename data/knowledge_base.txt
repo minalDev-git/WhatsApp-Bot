@@ -1,0 +1,108 @@
+UNIVERSITY FYP & EVENTS - KNOWLEDGE BASE
+
+ABOUT FINAL YEAR PROJECT (FYP)
+The Final Year Project is a capstone requirement for all undergraduate students. It's an opportunity to apply theoretical knowledge to real-world problems. Students work individually or in teams (2-4 members) under faculty supervision to develop innovative solutions. FYP is worth 6 credit hours and spans both Fall and Spring semesters.
+
+FYP TIMELINE & DEADLINES
+- Project Proposal Submission: August 15, 2026
+- Supervisor Allocation: August 30, 2026
+- Mid-Semester Evaluation: October 10, 2026
+- Progress Report Submission: November 20, 2026
+- Final Presentation & Defense: January 5-10, 2027
+- Final Report Submission: January 15, 2027
+
+FYP PROCESS STAGES
+1. Ideation: Brainstorm project ideas aligned with your interests
+2. Proposal Writing: Document problem statement, objectives, methodology
+3. Literature Review: Research existing solutions and related work
+4. Development: Build and implement your solution
+5. Testing & Evaluation: Validate your work with testing
+6. Documentation: Write comprehensive final report
+7. Presentation: Present findings to evaluation committee
+
+FYP PROJECT IDEAS - AI & AGENTS
+1. Chatbot Development: Build intelligent conversational agents using NLP
+2. Recommendation System: Create AI-powered content recommendation engine
+3. Autonomous Agents: Develop multi-agent systems for task coordination
+4. Computer Vision: Object detection, image classification, or segmentation
+5. Natural Language Processing: Text analysis, sentiment analysis, or translation
+6. Machine Learning Pipeline: Predictive modeling for real-world datasets
+7. Reinforcement Learning: Train agents to optimize decision-making
+8. Generative AI: Build text/image generation models
+9. Voice Assistant: Create voice-enabled AI assistant
+10. Anomaly Detection: Detect fraudulent transactions or network intrusions
+
+AI & AGENTS - EMERGING AREAS
+- Large Language Models (LLMs): Fine-tuning and prompt engineering
+- Retrieval Augmented Generation (RAG): Combining LLMs with knowledge bases
+- Multi-Agent Systems: Agents collaborating to solve complex problems
+- AI Ethics: Bias detection, explainability, fairness in AI
+- Knowledge Graphs: Structured data representation for intelligent systems
+- Computer Vision + NLP: Multimodal AI applications
+
+FYP EVALUATION CRITERIA
+- Problem Significance: Relevance and impact of the problem
+- Technical Complexity: Difficulty and sophistication of solution
+- Innovation: Novelty and creativity of approach
+- Implementation Quality: Code quality, documentation, testing
+- Presentation: Clear communication of work and results
+- Report Quality: Comprehensive documentation and analysis
+- Defense Performance: Ability to answer questions and defend work
+
+GRADING BREAKDOWN
+- Proposal & Supervisor Assessment: 10%
+- Progress Reports & Meetings: 20%
+- Final Project Implementation: 40%
+- Final Report: 20%
+- Presentation & Defense: 10%
+
+FYP RESOURCES & SUPPORT
+- FYP Coordinator: Dr. Ahmed Khan (Room 301, CS Building)
+- Email: fyp.coordinator@university.edu
+- Office Hours: Monday, Wednesday, Friday 2-4 PM
+- FYP Guide & Templates: Available on university portal
+- Supervisors: Assigned faculty members provide guidance
+- Lab Access: 24/7 computer lab access for FYP students
+
+UPCOMING UNIVERSITY EVENTS
+
+HACKATHONS
+1. AI Hackathon 2026 (September 8-9, 2026)
+   - Theme: Solving Real-World Problems with AI
+   - Prize Pool: 500,000 PKR
+   - Max Team Size: 4 members
+   - Registration Deadline: August 25, 2026
+   - Venue: Main Campus, Engineering Block
+   
+2. Web Development Challenge (October 15-17, 2026)
+   - Focus: Full-stack web applications
+   - Prize Pool: 300,000 PKR
+   - Registration: Open now
+
+3. Data Science Competition (November 20-22, 2026)
+   - Predict real-world datasets using ML
+   - Prize Pool: 400,000 PKR
+
+SEMINARS & WORKSHOPS (August-September 2026)
+- Advanced Python Programming: August 5 (3 PM, CS Lab 1)
+- Introduction to Machine Learning: August 12 (4 PM, Auditorium)
+- NLP with Transformers: August 19 (3 PM, CS Lab 2)
+- Building AI Agents: August 26 (2 PM, Conference Room)
+- Web Scraping & Data Collection: September 2 (4 PM, CS Lab 1)
+
+TECH TALKS & INDUSTRY SESSIONS
+- AI in Healthcare: September 10 at 5 PM (Keynote Speaker: Dr. Fatima from Tech Corp)
+- Careers in Machine Learning: September 17 at 4:30 PM
+- Entrepreneurship & AI Startups: September 24 at 6 PM
+
+REGISTRATION & MORE INFO
+- Hackathon Registration: hackathon.university.edu
+- Event Calendar: events.university.edu
+- Contact Student Affairs: +92-21-1234567
+- Email: events@university.edu
+
+INTERNSHIP & CAREER OPPORTUNITIES
+- Summer Internships Open: Apply by July 31, 2026
+- AI/ML Engineer Positions: Multiple companies recruiting on campus
+- Career Fair: November 5, 2026
+- Company Visit: Microsoft (August 20), Google (September 15)

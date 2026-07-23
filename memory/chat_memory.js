@@ -1,8 +1,8 @@
-import { prepare } from "./db";
+import db from "../db/db.js";
 
 // Saves a user or assistant message to the chat history.
-function saveMessage(userId, role, message) {
-  const stmt = prepare(`
+export function saveMessage(userId, role, message) {
+  const stmt = db.prepare(`
         INSERT INTO chat_history(user_id, role, message)
         VALUES (?, ?, ?)
     `);
@@ -11,8 +11,8 @@ function saveMessage(userId, role, message) {
 }
 
 // Retrieves the most recent chat messages for a specific user.
-function getChatHistory(userId, limit = 10) {
-  const stmt = prepare(`
+export function getChatHistory(userId, limit = 10) {
+  const stmt = db.prepare(`
         SELECT role, message
         FROM chat_history
         WHERE user_id = ?
@@ -27,8 +27,8 @@ function getChatHistory(userId, limit = 10) {
 }
 
 // Deletes older chat messages while keeping only the most recent ones.
-function deleteOldMsgs(userId, limit = 20) {
-  const stmt = prepare(`
+export function deleteOldMsgs(userId, limit = 20) {
+  const stmt = db.prepare(`
         DELETE FROM chat_history
         WHERE user_id = ?
         AND id NOT IN (
@@ -41,9 +41,3 @@ function deleteOldMsgs(userId, limit = 20) {
 
   stmt.run(userId, userId, limit);
 }
-
-export default {
-  saveMessage,
-  getChatHistory,
-  deleteOldMsgs,
-};

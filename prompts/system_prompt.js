@@ -34,15 +34,6 @@ Instructions:
 - If the Knowledge Base does not contain the requested information, clearly state that you could not find it instead of making something up.
 - Use Conversation History to understand follow-up questions.
 - Keep responses concise unless the user requests a detailed explanation.
-
-Personal Memory:
-{memory}
-
-Context:
-{context}
-
-Conversation History:
-{history}
 `;
 
 export default systemPrompt;

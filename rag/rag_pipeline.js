@@ -1,6 +1,6 @@
 import "dotenv/config";
-import { getVectorStore } from "./vectorstore";
-import { load_doc, saveInVectorDB } from "./ingest";
+import { getVectorStore } from "./vectorstore.js";
+import { load_doc, saveInVectorDB } from "./ingest.js";
 
 const FILE_PATH = "data/knowledge_base.txt";
 const RETRIEVER_K = 3;

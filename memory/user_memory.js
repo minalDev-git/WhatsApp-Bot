@@ -1,8 +1,8 @@
-import { prepare } from "./db";
+import db from "../db/db.js";
 
 // Updates an existing row if a specified unique key already exists, or inserts a new row if it does not.
-function upsertMemory(userId, key, value) {
-  const stmt = prepare(`
+export function upsertMemory(userId, key, value) {
+  const stmt = db.prepare(`
         INSERT INTO user_memory(user_id,key,value)
         VALUES(?,?,?)
 
@@ -16,8 +16,8 @@ function upsertMemory(userId, key, value) {
 }
 
 // Get recent conversation
-function getUserMemory(userId) {
-  const stmt = prepare(`
+export function getUserMemory(userId) {
+  const stmt = db.prepare(`
         SELECT key, value
         FROM user_memory
         WHERE user_id = ?
@@ -28,14 +28,14 @@ function getUserMemory(userId) {
 }
 
 // Saves multiple extracted user facts (key-value pairs) into the user_memory table.
-function saveFacts(userId, facts) {
+export function saveFacts(userId, facts) {
   for (const [key, value] of Object.entries(facts)) {
     upsertMemory(userId, key, JSON.stringify(value));
   }
 }
 
 // Retrieves all stored user facts and returns them as a single JavaScript object.
-function getMemoryObject(userId) {
+export function getMemoryObject(userId) {
   const rows = getUserMemory(userId);
 
   const memory = {};
@@ -50,8 +50,3 @@ function getMemoryObject(userId) {
 
   return memory;
 }
-
-export default {
-  saveFacts,
-  getMemoryObject,
-};

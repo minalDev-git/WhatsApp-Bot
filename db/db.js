@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS chat_history (
 );
 `);
 db.exec(`
-CREATE TABLE user_memory(
+CREATE TABLE IF NOT EXISTS user_memory(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id TEXT,
     key TEXT,

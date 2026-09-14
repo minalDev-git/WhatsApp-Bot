@@ -1,108 +1,374 @@
-UNIVERSITY FYP & EVENTS - KNOWLEDGE BASE
+BAKERY BUSINESS KNOWLEDGE BASE
 
-ABOUT FINAL YEAR PROJECT (FYP)
-The Final Year Project is a capstone requirement for all undergraduate students. It's an opportunity to apply theoretical knowledge to real-world problems. Students work individually or in teams (2-4 members) under faculty supervision to develop innovative solutions. FYP is worth 6 credit hours and spans both Fall and Spring semesters.
+Business Name: Sweet Crumbs Bakery
 
-FYP TIMELINE & DEADLINES
-- Project Proposal Submission: August 15, 2026
-- Supervisor Allocation: August 30, 2026
-- Mid-Semester Evaluation: October 10, 2026
-- Progress Report Submission: November 20, 2026
-- Final Presentation & Defense: January 5-10, 2027
-- Final Report Submission: January 15, 2027
+About the Bakery:
+Sweet Crumbs Bakery is a local bakery that specializes in freshly baked cakes, cupcakes, pastries, cookies, brownies, bread, and other sweet treats. We prepare our products using fresh ingredients and offer different flavors and customization options for special occasions.
 
-FYP PROCESS STAGES
-1. Ideation: Brainstorm project ideas aligned with your interests
-2. Proposal Writing: Document problem statement, objectives, methodology
-3. Literature Review: Research existing solutions and related work
-4. Development: Build and implement your solution
-5. Testing & Evaluation: Validate your work with testing
-6. Documentation: Write comprehensive final report
-7. Presentation: Present findings to evaluation committee
+--------------------------------------------------
+MENU
+--------------------------------------------------
 
-FYP PROJECT IDEAS - AI & AGENTS
-1. Chatbot Development: Build intelligent conversational agents using NLP
-2. Recommendation System: Create AI-powered content recommendation engine
-3. Autonomous Agents: Develop multi-agent systems for task coordination
-4. Computer Vision: Object detection, image classification, or segmentation
-5. Natural Language Processing: Text analysis, sentiment analysis, or translation
-6. Machine Learning Pipeline: Predictive modeling for real-world datasets
-7. Reinforcement Learning: Train agents to optimize decision-making
-8. Generative AI: Build text/image generation models
-9. Voice Assistant: Create voice-enabled AI assistant
-10. Anomaly Detection: Detect fraudulent transactions or network intrusions
+1. CAKES
 
-AI & AGENTS - EMERGING AREAS
-- Large Language Models (LLMs): Fine-tuning and prompt engineering
-- Retrieval Augmented Generation (RAG): Combining LLMs with knowledge bases
-- Multi-Agent Systems: Agents collaborating to solve complex problems
-- AI Ethics: Bias detection, explainability, fairness in AI
-- Knowledge Graphs: Structured data representation for intelligent systems
-- Computer Vision + NLP: Multimodal AI applications
+Chocolate Fudge Cake:
+A rich chocolate cake layered with smooth chocolate fudge cream.
+Available sizes:
+- 1 pound
+- 2 pounds
+- 3 pounds
+- 4 pounds
 
-FYP EVALUATION CRITERIA
-- Problem Significance: Relevance and impact of the problem
-- Technical Complexity: Difficulty and sophistication of solution
-- Innovation: Novelty and creativity of approach
-- Implementation Quality: Code quality, documentation, testing
-- Presentation: Clear communication of work and results
-- Report Quality: Comprehensive documentation and analysis
-- Defense Performance: Ability to answer questions and defend work
+Vanilla Cream Cake:
+A soft vanilla sponge cake filled and covered with vanilla cream.
+Available sizes:
+- 1 pound
+- 2 pounds
+- 3 pounds
+- 4 pounds
 
-GRADING BREAKDOWN
-- Proposal & Supervisor Assessment: 10%
-- Progress Reports & Meetings: 20%
-- Final Project Implementation: 40%
-- Final Report: 20%
-- Presentation & Defense: 10%
+Red Velvet Cake:
+A soft red velvet sponge with a creamy cheese frosting.
+Available sizes:
+- 1 pound
+- 2 pounds
+- 3 pounds
+- 4 pounds
 
-FYP RESOURCES & SUPPORT
-- FYP Coordinator: Dr. Ahmed Khan (Room 301, CS Building)
-- Email: fyp.coordinator@university.edu
-- Office Hours: Monday, Wednesday, Friday 2-4 PM
-- FYP Guide & Templates: Available on university portal
-- Supervisors: Assigned faculty members provide guidance
-- Lab Access: 24/7 computer lab access for FYP students
+Strawberry Cake:
+A light vanilla sponge filled with fresh strawberry cream and strawberry pieces.
+Available sizes:
+- 1 pound
+- 2 pounds
+- 3 pounds
 
-UPCOMING UNIVERSITY EVENTS
+Black Forest Cake:
+Chocolate sponge layered with whipped cream and cherry filling.
+Available sizes:
+- 1 pound
+- 2 pounds
+- 3 pounds
+- 4 pounds
 
-HACKATHONS
-1. AI Hackathon 2026 (September 8-9, 2026)
-   - Theme: Solving Real-World Problems with AI
-   - Prize Pool: 500,000 PKR
-   - Max Team Size: 4 members
-   - Registration Deadline: August 25, 2026
-   - Venue: Main Campus, Engineering Block
-   
-2. Web Development Challenge (October 15-17, 2026)
-   - Focus: Full-stack web applications
-   - Prize Pool: 300,000 PKR
-   - Registration: Open now
+--------------------------------------------------
+2. CUPCAKES
+--------------------------------------------------
 
-3. Data Science Competition (November 20-22, 2026)
-   - Predict real-world datasets using ML
-   - Prize Pool: 400,000 PKR
+Chocolate Cupcake:
+Chocolate-flavored cupcake topped with chocolate buttercream.
 
-SEMINARS & WORKSHOPS (August-September 2026)
-- Advanced Python Programming: August 5 (3 PM, CS Lab 1)
-- Introduction to Machine Learning: August 12 (4 PM, Auditorium)
-- NLP with Transformers: August 19 (3 PM, CS Lab 2)
-- Building AI Agents: August 26 (2 PM, Conference Room)
-- Web Scraping & Data Collection: September 2 (4 PM, CS Lab 1)
+Vanilla Cupcake:
+Classic vanilla cupcake topped with vanilla buttercream.
 
-TECH TALKS & INDUSTRY SESSIONS
-- AI in Healthcare: September 10 at 5 PM (Keynote Speaker: Dr. Fatima from Tech Corp)
-- Careers in Machine Learning: September 17 at 4:30 PM
-- Entrepreneurship & AI Startups: September 24 at 6 PM
+Red Velvet Cupcake:
+Red velvet cupcake topped with cream cheese frosting.
 
-REGISTRATION & MORE INFO
-- Hackathon Registration: hackathon.university.edu
-- Event Calendar: events.university.edu
-- Contact Student Affairs: +92-21-1234567
-- Email: events@university.edu
+Strawberry Cupcake:
+Strawberry-flavored cupcake topped with strawberry cream.
 
-INTERNSHIP & CAREER OPPORTUNITIES
-- Summer Internships Open: Apply by July 31, 2026
-- AI/ML Engineer Positions: Multiple companies recruiting on campus
-- Career Fair: November 5, 2026
-- Company Visit: Microsoft (August 20), Google (September 15)
+Cupcake box options:
+- Box of 4
+- Box of 6
+- Box of 12
+
+--------------------------------------------------
+3. PASTRIES
+--------------------------------------------------
+
+Chocolate Croissant:
+Flaky pastry filled with chocolate.
+
+Cream Pastry:
+Soft layered pastry filled with vanilla cream.
+
+Chocolate Eclair:
+Choux pastry filled with cream and topped with chocolate glaze.
+
+Fruit Pastry:
+Light pastry topped with fresh seasonal fruits and cream.
+
+--------------------------------------------------
+4. COOKIES
+--------------------------------------------------
+
+Chocolate Chip Cookies:
+Soft-baked cookies containing chocolate chips.
+
+Double Chocolate Cookies:
+Chocolate cookies containing chocolate chunks and chocolate chips.
+
+Butter Cookies:
+Classic crispy cookies made with butter and vanilla.
+
+--------------------------------------------------
+5. BROWNIES
+--------------------------------------------------
+
+Classic Chocolate Brownie:
+Soft and fudgy chocolate brownie.
+
+Walnut Brownie:
+Chocolate brownie containing chopped walnuts.
+
+Chocolate Chip Brownie:
+Fudgy brownie containing chocolate chips.
+
+--------------------------------------------------
+6. BREAD
+--------------------------------------------------
+
+White Bread:
+Freshly baked soft white bread.
+
+Whole Wheat Bread:
+Freshly baked bread prepared using whole wheat flour.
+
+Garlic Bread:
+Soft bread topped with garlic butter and herbs.
+
+--------------------------------------------------
+FLAVORS
+--------------------------------------------------
+
+The following flavors are available for customized cakes:
+
+- Chocolate
+- Vanilla
+- Red Velvet
+- Strawberry
+- Black Forest
+- Coffee
+- Mango
+- Lotus Biscoff
+- Oreo
+- Pineapple
+
+Some flavors may not be available every day. Customers should contact the bakery to confirm flavor availability before placing an order.
+
+--------------------------------------------------
+CAKE CUSTOMIZATION
+--------------------------------------------------
+
+Customers can request customized cakes for:
+
+- Birthdays
+- Anniversaries
+- Weddings
+- Graduations
+- Baby showers
+- Engagements
+- Corporate events
+- Other special occasions
+
+Customization options include:
+
+- Personalized cake message
+- Custom colors
+- Different frosting flavors
+- Simple themed designs
+- Photo cakes
+- Character-themed cakes
+
+Customized cakes should generally be ordered at least 2 days in advance.
+
+Large or highly detailed custom cakes may require more preparation time.
+
+--------------------------------------------------
+OPENING HOURS
+--------------------------------------------------
+
+Sweet Crumbs Bakery is open on the following days:
+
+Monday:
+9:00 AM - 10:00 PM
+
+Tuesday:
+9:00 AM - 10:00 PM
+
+Wednesday:
+9:00 AM - 10:00 PM
+
+Thursday:
+9:00 AM - 10:00 PM
+
+Friday:
+9:00 AM - 11:00 PM
+
+Saturday:
+9:00 AM - 11:00 PM
+
+Sunday:
+10:00 AM - 10:00 PM
+
+The bakery may have different hours on public holidays. Customers should contact the bakery to confirm holiday timings.
+
+--------------------------------------------------
+HOME DELIVERY
+--------------------------------------------------
+
+Sweet Crumbs Bakery provides home delivery for cakes, cupcakes, pastries, cookies, brownies, and bread.
+
+Delivery Areas:
+- Gulshan
+- Bahadurabad
+- PECHS
+- North Nazimabad
+- Clifton
+- DHA
+- Nearby areas depending on delivery availability
+
+Delivery charges depend on the customer's location.
+
+Estimated delivery time is 45 to 90 minutes for regular menu items, depending on order size, traffic, and delivery location.
+
+Customized cakes are usually scheduled for a specific delivery time and should be ordered in advance.
+
+--------------------------------------------------
+ORDERING INFORMATION
+--------------------------------------------------
+
+Customers can place an order through WhatsApp.
+
+WhatsApp Number:
++92 300 1234567
+
+Customers should provide the following information when placing a delivery order:
+
+- Customer name
+- Items required
+- Quantity
+- Preferred flavor
+- Delivery address
+- Preferred delivery time
+- Special instructions
+
+For customized cakes, customers should also provide:
+
+- Cake size
+- Cake flavor
+- Theme or design
+- Cake message
+- Preferred colors
+- Date and time required
+
+--------------------------------------------------
+CONTACT INFORMATION
+--------------------------------------------------
+
+Business Name:
+Sweet Crumbs Bakery
+
+WhatsApp:
++92 300 1234567
+
+Phone:
++92 300 1234567
+
+Email:
+orders@sweetcrumbs.example
+
+Address:
+Shop 12, Main Bakery Street, Karachi, Pakistan
+
+Customers can contact the bakery through WhatsApp for menu questions, order placement, customization requests, delivery information, and availability.
+
+--------------------------------------------------
+ORDER CANCELLATION AND CHANGES
+--------------------------------------------------
+
+Customers can request changes to an order before preparation begins.
+
+Customized cake orders cannot normally be changed or cancelled once preparation has started.
+
+For cancellation or order changes, customers should contact the bakery through WhatsApp as soon as possible.
+
+--------------------------------------------------
+PAYMENT METHODS
+--------------------------------------------------
+
+Sweet Crumbs Bakery accepts:
+
+- Cash on Delivery
+- Bank Transfer
+- Easypaisa
+- JazzCash
+
+For large customized orders, an advance payment may be required.
+
+--------------------------------------------------
+IMPORTANT CUSTOMER INFORMATION
+--------------------------------------------------
+
+Freshness:
+All bakery products are prepared using fresh ingredients. Customers are advised to consume cakes and pastries as soon as possible after delivery.
+
+Allergen Information:
+Some products may contain or come into contact with:
+- Milk
+- Eggs
+- Wheat
+- Nuts
+- Soy
+
+Customers with food allergies should contact the bakery before ordering.
+
+Availability:
+Menu availability can change depending on the day and available ingredients. The chatbot should not assume that an item is currently available if the knowledge base does not explicitly confirm its availability.
+
+Pricing:
+Prices may change based on size, flavor, customization, quantity, and current ingredient costs. Customers should contact Sweet Crumbs Bakery through WhatsApp for the latest prices.
+
+--------------------------------------------------
+FREQUENTLY ASKED QUESTIONS
+--------------------------------------------------
+
+Q: What time does Sweet Crumbs Bakery open?
+A: The bakery opens at 9:00 AM from Monday to Saturday and at 10:00 AM on Sunday.
+
+Q: What time does Sweet Crumbs Bakery close?
+A: The bakery closes at 10:00 PM from Monday to Thursday and Sunday. On Friday and Saturday, it closes at 11:00 PM.
+
+Q: Does the bakery offer home delivery?
+A: Yes, Sweet Crumbs Bakery offers home delivery for cakes, cupcakes, pastries, cookies, brownies, and bread.
+
+Q: How can I place an order?
+A: Customers can place an order through WhatsApp at +92 300 1234567.
+
+Q: What cake flavors are available?
+A: Available cake flavors include chocolate, vanilla, red velvet, strawberry, black forest, coffee, mango, Lotus Biscoff, Oreo, and pineapple. Availability may vary by day.
+
+Q: Can I order a customized cake?
+A: Yes, customized cakes are available for birthdays, anniversaries, weddings, graduations, baby showers, engagements, corporate events, and other occasions.
+
+Q: How early should I order a customized cake?
+A: Customized cakes should generally be ordered at least 2 days in advance. Large or highly detailed cakes may require additional preparation time.
+
+Q: What payment methods are accepted?
+A: Sweet Crumbs Bakery accepts Cash on Delivery, Bank Transfer, Easypaisa, and JazzCash.
+
+Q: Does the bakery deliver to DHA?
+A: Yes, DHA is one of the listed delivery areas. Delivery availability and charges depend on the exact location.
+
+Q: How long does delivery take?
+A: Regular orders generally take 45 to 90 minutes, depending on order size, traffic, and delivery location.
+
+Q: Can I change my order?
+A: Order changes can be requested before preparation begins. Customized orders generally cannot be changed once preparation has started.
+
+Q: Does the bakery offer eggless cakes?
+A: The knowledge base does not currently confirm eggless cakes. Customers should contact the bakery through WhatsApp to ask about special dietary requirements.
+
+Q: How can I contact the bakery?
+A: Customers can contact Sweet Crumbs Bakery through WhatsApp or phone at +92 300 1234567, or email orders@sweetcrumbs.example.
+
+--------------------------------------------------
+CHATBOT RESPONSE RULE
+--------------------------------------------------
+
+The chatbot should answer customer questions using the information available in this knowledge base.
+
+If the requested information is available in the knowledge base, the chatbot should provide the relevant answer clearly and accurately.
+
+If the requested information is not available in the knowledge base, the chatbot should not invent or assume an answer. Instead, it should tell the customer that the information is not currently available and recommend contacting Sweet Crumbs Bakery through WhatsApp at +92 300 1234567.
+
+For questions about current prices, item availability, special requests, or delivery charges, the chatbot should recommend contacting the bakery because these details may change.

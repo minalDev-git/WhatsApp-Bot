@@ -13,13 +13,13 @@ export async function load_doc(docPath) {
     separators: ["\n\n", "\n", ".", ""],
   });
 
-  const chunks = await splitter.splitText(text);
-  console.log("Loaded document with", chunks.length, "chunks");
-  return chunks;
+  const docs = await splitter.createDocuments([text]);
+  console.log("Loaded document with", docs.length, "chunks");
+  return docs;
 }
 
-export async function saveInVectorDB(chunks) {
-  const vectorStore = await initializeVectorstore(chunks);
-  console.log("Saved", chunks.length, "chunks to vector store");
+export async function saveInVectorDB(docs) {
+  const vectorStore = await initializeVectorstore(docs);
+  console.log("Saved", docs.length, "chunks to vector store");
   return vectorStore;
 }

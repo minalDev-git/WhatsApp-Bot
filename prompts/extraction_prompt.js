@@ -94,7 +94,7 @@ Output:
 Now extract personal information from the following message.
 
 Message:
-{input}
+{{input}}
 `;
 
 export default extractionPrompt;

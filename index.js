@@ -13,7 +13,7 @@ import {
 } from "@langchain/core/prompts";
 import { ChatGroq } from "@langchain/groq";
 import { HumanMessage, AIMessage } from "@langchain/core/messages";
-
+import { StringOutputParser } from "@langchain/core/output_parsers";
 import { getChatHistory, saveMessage } from "./memory/chat_memory.js";
 import { getMemoryObject, saveFacts } from "./memory/user_memory.js";
 import { extractFacts } from "./memory/extractor.js";
@@ -22,7 +22,7 @@ import { getRelevantDocs } from "./rag/rag_pipeline.js";
 
 const model = new ChatGroq({
   apiKey: process.env.GROQ_API_KEY,
-  model: "llama-3.3-70b-versatile",
+  model: process.env.MODEL,
   temperature: 0.7,
 });
 
@@ -34,39 +34,39 @@ const prompt = ChatPromptTemplate.fromMessages([
   [
     "human",
     `
-Personal Memory:
-{memory}
+  Personal Memory:
+  {memory}
 
-Knowledge Base:
-{context}
+  Knowledge Base:
+  {context}
 
-Question:
-{message}
-`,
+  Question:
+  {message}
+  `,
   ],
 ]);
 
-async function getReply(message, userId) {
+async function getReply(message, sessionId) {
   // 1. Save the user's message
-  saveMessage(userId, "user", message);
+  saveMessage(sessionId, "user", message);
 
   // 2. Extract and store personal facts
   const facts = await extractFacts(message);
 
   if (Object.keys(facts).length > 0) {
-    await saveFacts(userId, facts);
+    await saveFacts(sessionId, facts);
   }
 
   // 3. Load recent chat history
 
-  const history = getChatHistory(userId).map((msg) =>
+  const history = getChatHistory(sessionId).map((msg) =>
     msg.role === "user"
       ? new HumanMessage(msg.message)
       : new AIMessage(msg.message),
   );
 
   // 4. Load personal memory
-  const memory = getMemoryObject(userId);
+  const memory = await getMemoryObject(sessionId);
 
   console.log("Query:", message);
 
@@ -75,6 +75,7 @@ async function getReply(message, userId) {
 
   // 6. Invoke the LLM
   const chain = prompt.pipe(model).pipe(new StringOutputParser());
+  console.log(prompt.inputVariables);
   const response = await chain.invoke({
     message,
 
@@ -86,7 +87,7 @@ async function getReply(message, userId) {
   });
 
   // 7. Save the assistant's reply
-  saveMessage(userId, "assistant", response);
+  saveMessage(sessionId, "assistant", response);
 
   return response;
 }

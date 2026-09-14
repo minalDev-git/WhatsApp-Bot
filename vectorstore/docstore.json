@@ -1,0 +1,222 @@
+[
+  [
+    [
+      "8eabda35-3e3e-4364-8426-5485999af590",
+      {
+        "pageContent": "BAKERY BUSINESS KNOWLEDGE BASE\n\nBusiness Name: Sweet Crumbs Bakery\n\nAbout the Bakery:\nSweet Crumbs Bakery is a local bakery that specializes in freshly baked cakes, cupcakes, pastries, cookies, brownies, bread, and other sweet treats. We prepare our products using fresh ingredients and offer different flavors and customization options for special occasions.\n\n--------------------------------------------------\nMENU\n--------------------------------------------------\n\n1. CAKES",
+        "metadata": { "loc": { "lines": { "from": 1, "to": 12 } } }
+      }
+    ],
+    [
+      "fe02a210-62ef-41bd-a223-087e1da2f63a",
+      {
+        "pageContent": "1. CAKES\n\nChocolate Fudge Cake:\nA rich chocolate cake layered with smooth chocolate fudge cream.\nAvailable sizes:\n- 1 pound\n- 2 pounds\n- 3 pounds\n- 4 pounds\n\nVanilla Cream Cake:\nA soft vanilla sponge cake filled and covered with vanilla cream.\nAvailable sizes:\n- 1 pound\n- 2 pounds\n- 3 pounds\n- 4 pounds\n\nRed Velvet Cake:\nA soft red velvet sponge with a creamy cheese frosting.\nAvailable sizes:\n- 1 pound\n- 2 pounds\n- 3 pounds\n- 4 pounds",
+        "metadata": { "loc": { "lines": { "from": 12, "to": 36 } } }
+      }
+    ],
+    [
+      "a26ee6e3-8d0b-4643-b150-e1e049563ede",
+      {
+        "pageContent": "Strawberry Cake:\nA light vanilla sponge filled with fresh strawberry cream and strawberry pieces.\nAvailable sizes:\n- 1 pound\n- 2 pounds\n- 3 pounds\n\nBlack Forest Cake:\nChocolate sponge layered with whipped cream and cherry filling.\nAvailable sizes:\n- 1 pound\n- 2 pounds\n- 3 pounds\n- 4 pounds\n\n--------------------------------------------------\n2. CUPCAKES\n--------------------------------------------------\n\nChocolate Cupcake:\nChocolate-flavored cupcake topped with chocolate buttercream.",
+        "metadata": { "loc": { "lines": { "from": 38, "to": 58 } } }
+      }
+    ],
+    [
+      "e0951294-cbc2-48ef-8929-011504fad12f",
+      {
+        "pageContent": "Chocolate Cupcake:\nChocolate-flavored cupcake topped with chocolate buttercream.\n\nVanilla Cupcake:\nClassic vanilla cupcake topped with vanilla buttercream.\n\nRed Velvet Cupcake:\nRed velvet cupcake topped with cream cheese frosting.\n\nStrawberry Cupcake:\nStrawberry-flavored cupcake topped with strawberry cream.\n\nCupcake box options:\n- Box of 4\n- Box of 6\n- Box of 12\n\n--------------------------------------------------\n3. PASTRIES\n--------------------------------------------------",
+        "metadata": { "loc": { "lines": { "from": 57, "to": 76 } } }
+      }
+    ],
+    [
+      "62865397-9974-4aac-9fcc-a0345234da0b",
+      {
+        "pageContent": "Chocolate Croissant:\nFlaky pastry filled with chocolate.\n\nCream Pastry:\nSoft layered pastry filled with vanilla cream.\n\nChocolate Eclair:\nChoux pastry filled with cream and topped with chocolate glaze.\n\nFruit Pastry:\nLight pastry topped with fresh seasonal fruits and cream.\n\n--------------------------------------------------\n4. COOKIES\n--------------------------------------------------\n\nChocolate Chip Cookies:\nSoft-baked cookies containing chocolate chips.",
+        "metadata": { "loc": { "lines": { "from": 78, "to": 95 } } }
+      }
+    ],
+    [
+      "096db11f-b89e-4444-ae7a-1ef3f7664cd6",
+      {
+        "pageContent": "Chocolate Chip Cookies:\nSoft-baked cookies containing chocolate chips.\n\nDouble Chocolate Cookies:\nChocolate cookies containing chocolate chunks and chocolate chips.\n\nButter Cookies:\nClassic crispy cookies made with butter and vanilla.\n\n--------------------------------------------------\n5. BROWNIES\n--------------------------------------------------\n\nClassic Chocolate Brownie:\nSoft and fudgy chocolate brownie.\n\nWalnut Brownie:\nChocolate brownie containing chopped walnuts.",
+        "metadata": { "loc": { "lines": { "from": 94, "to": 111 } } }
+      }
+    ],
+    [
+      "3c693c97-fdc3-485a-8966-7fff19304783",
+      {
+        "pageContent": "Walnut Brownie:\nChocolate brownie containing chopped walnuts.\n\nChocolate Chip Brownie:\nFudgy brownie containing chocolate chips.\n\n--------------------------------------------------\n6. BREAD\n--------------------------------------------------\n\nWhite Bread:\nFreshly baked soft white bread.\n\nWhole Wheat Bread:\nFreshly baked bread prepared using whole wheat flour.\n\nGarlic Bread:\nSoft bread topped with garlic butter and herbs.",
+        "metadata": { "loc": { "lines": { "from": 110, "to": 127 } } }
+      }
+    ],
+    [
+      "4fe24e5b-7c70-4a25-a39c-a05375847779",
+      {
+        "pageContent": "Garlic Bread:\nSoft bread topped with garlic butter and herbs.\n\n--------------------------------------------------\nFLAVORS\n--------------------------------------------------\n\nThe following flavors are available for customized cakes:\n\n- Chocolate\n- Vanilla\n- Red Velvet\n- Strawberry\n- Black Forest\n- Coffee\n- Mango\n- Lotus Biscoff\n- Oreo\n- Pineapple\n\nSome flavors may not be available every day. Customers should contact the bakery to confirm flavor availability before placing an order.",
+        "metadata": { "loc": { "lines": { "from": 126, "to": 146 } } }
+      }
+    ],
+    [
+      "e7b984e0-0bcd-46af-9701-86473c9fe7a3",
+      {
+        "pageContent": "--------------------------------------------------\nCAKE CUSTOMIZATION\n--------------------------------------------------\n\nCustomers can request customized cakes for:\n\n- Birthdays\n- Anniversaries\n- Weddings\n- Graduations\n- Baby showers\n- Engagements\n- Corporate events\n- Other special occasions\n\nCustomization options include:\n\n- Personalized cake message\n- Custom colors\n- Different frosting flavors\n- Simple themed designs\n- Photo cakes\n- Character-themed cakes",
+        "metadata": { "loc": { "lines": { "from": 148, "to": 170 } } }
+      }
+    ],
+    [
+      "ed001fd1-09fe-472c-82f0-09751fc09c07",
+      {
+        "pageContent": "Customized cakes should generally be ordered at least 2 days in advance.\n\nLarge or highly detailed custom cakes may require more preparation time.\n\n--------------------------------------------------\nOPENING HOURS\n--------------------------------------------------\n\nSweet Crumbs Bakery is open on the following days:\n\nMonday:\n9:00 AM - 10:00 PM\n\nTuesday:\n9:00 AM - 10:00 PM\n\nWednesday:\n9:00 AM - 10:00 PM\n\nThursday:\n9:00 AM - 10:00 PM\n\nFriday:\n9:00 AM - 11:00 PM\n\nSaturday:\n9:00 AM - 11:00 PM",
+        "metadata": { "loc": { "lines": { "from": 172, "to": 198 } } }
+      }
+    ],
+    [
+      "752f7cef-2c0d-40b3-a600-e3a5973c44cc",
+      {
+        "pageContent": "Thursday:\n9:00 AM - 10:00 PM\n\nFriday:\n9:00 AM - 11:00 PM\n\nSaturday:\n9:00 AM - 11:00 PM\n\nSunday:\n10:00 AM - 10:00 PM\n\nThe bakery may have different hours on public holidays. Customers should contact the bakery to confirm holiday timings.\n\n--------------------------------------------------\nHOME DELIVERY\n--------------------------------------------------\n\nSweet Crumbs Bakery provides home delivery for cakes, cupcakes, pastries, cookies, brownies, and bread.",
+        "metadata": { "loc": { "lines": { "from": 191, "to": 209 } } }
+      }
+    ],
+    [
+      "e6e8937f-5014-4e95-91d3-ad5794002379",
+      {
+        "pageContent": "Delivery Areas:\n- Gulshan\n- Bahadurabad\n- PECHS\n- North Nazimabad\n- Clifton\n- DHA\n- Nearby areas depending on delivery availability\n\nDelivery charges depend on the customer's location.\n\nEstimated delivery time is 45 to 90 minutes for regular menu items, depending on order size, traffic, and delivery location.\n\nCustomized cakes are usually scheduled for a specific delivery time and should be ordered in advance.",
+        "metadata": { "loc": { "lines": { "from": 211, "to": 224 } } }
+      }
+    ],
+    [
+      "14224832-395b-4915-8626-d1f07752c237",
+      {
+        "pageContent": "--------------------------------------------------\nORDERING INFORMATION\n--------------------------------------------------\n\nCustomers can place an order through WhatsApp.\n\nWhatsApp Number:\n+92 300 1234567\n\nCustomers should provide the following information when placing a delivery order:\n\n- Customer name\n- Items required\n- Quantity\n- Preferred flavor\n- Delivery address\n- Preferred delivery time\n- Special instructions\n\nFor customized cakes, customers should also provide:",
+        "metadata": { "loc": { "lines": { "from": 226, "to": 245 } } }
+      }
+    ],
+    [
+      "6c472359-386d-495f-8589-d12849418750",
+      {
+        "pageContent": "For customized cakes, customers should also provide:\n\n- Cake size\n- Cake flavor\n- Theme or design\n- Cake message\n- Preferred colors\n- Date and time required\n\n--------------------------------------------------\nCONTACT INFORMATION\n--------------------------------------------------\n\nBusiness Name:\nSweet Crumbs Bakery\n\nWhatsApp:\n+92 300 1234567\n\nPhone:\n+92 300 1234567\n\nEmail:\norders@sweetcrumbs.example\n\nAddress:\nShop 12, Main Bakery Street, Karachi, Pakistan",
+        "metadata": { "loc": { "lines": { "from": 245, "to": 271 } } }
+      }
+    ],
+    [
+      "7821e691-5b08-4f0f-bc5c-6f6c712337f1",
+      {
+        "pageContent": "Email:\norders@sweetcrumbs.example\n\nAddress:\nShop 12, Main Bakery Street, Karachi, Pakistan\n\nCustomers can contact the bakery through WhatsApp for menu questions, order placement, customization requests, delivery information, and availability.\n\n--------------------------------------------------\nORDER CANCELLATION AND CHANGES\n--------------------------------------------------\n\nCustomers can request changes to an order before preparation begins.",
+        "metadata": { "loc": { "lines": { "from": 267, "to": 279 } } }
+      }
+    ],
+    [
+      "895575d4-d91b-4b31-a90b-d9671b2b547a",
+      {
+        "pageContent": "Customers can request changes to an order before preparation begins.\n\nCustomized cake orders cannot normally be changed or cancelled once preparation has started.\n\nFor cancellation or order changes, customers should contact the bakery through WhatsApp as soon as possible.\n\n--------------------------------------------------\nPAYMENT METHODS\n--------------------------------------------------\n\nSweet Crumbs Bakery accepts:\n\n- Cash on Delivery\n- Bank Transfer\n- Easypaisa\n- JazzCash",
+        "metadata": { "loc": { "lines": { "from": 279, "to": 294 } } }
+      }
+    ],
+    [
+      "b0c81861-6738-4d15-974d-09c8b78e24ed",
+      {
+        "pageContent": "Sweet Crumbs Bakery accepts:\n\n- Cash on Delivery\n- Bank Transfer\n- Easypaisa\n- JazzCash\n\nFor large customized orders, an advance payment may be required.\n\n--------------------------------------------------\nIMPORTANT CUSTOMER INFORMATION\n--------------------------------------------------\n\nFreshness:\nAll bakery products are prepared using fresh ingredients. Customers are advised to consume cakes and pastries as soon as possible after delivery.",
+        "metadata": { "loc": { "lines": { "from": 289, "to": 303 } } }
+      }
+    ],
+    [
+      "897a6f2d-0370-4bd3-8f20-9ff9a6dfb555",
+      {
+        "pageContent": "Allergen Information:\nSome products may contain or come into contact with:\n- Milk\n- Eggs\n- Wheat\n- Nuts\n- Soy\n\nCustomers with food allergies should contact the bakery before ordering.\n\nAvailability:\nMenu availability can change depending on the day and available ingredients. The chatbot should not assume that an item is currently available if the knowledge base does not explicitly confirm its availability.",
+        "metadata": { "loc": { "lines": { "from": 305, "to": 316 } } }
+      }
+    ],
+    [
+      "a217b03c-c00f-4a6f-9f03-abfa47d73ef1",
+      {
+        "pageContent": "Pricing:\nPrices may change based on size, flavor, customization, quantity, and current ingredient costs. Customers should contact Sweet Crumbs Bakery through WhatsApp for the latest prices.\n\n--------------------------------------------------\nFREQUENTLY ASKED QUESTIONS\n--------------------------------------------------\n\nQ: What time does Sweet Crumbs Bakery open?\nA: The bakery opens at 9:00 AM from Monday to Saturday and at 10:00 AM on Sunday.",
+        "metadata": { "loc": { "lines": { "from": 318, "to": 326 } } }
+      }
+    ],
+    [
+      "6545b133-ce8b-41d3-b032-3951c0953825",
+      {
+        "pageContent": "Q: What time does Sweet Crumbs Bakery close?\nA: The bakery closes at 10:00 PM from Monday to Thursday and Sunday. On Friday and Saturday, it closes at 11:00 PM.\n\nQ: Does the bakery offer home delivery?\nA: Yes, Sweet Crumbs Bakery offers home delivery for cakes, cupcakes, pastries, cookies, brownies, and bread.\n\nQ: How can I place an order?\nA: Customers can place an order through WhatsApp at +92 300 1234567.",
+        "metadata": { "loc": { "lines": { "from": 328, "to": 335 } } }
+      }
+    ],
+    [
+      "0c3b1959-794c-4cfa-ad01-2e0482f6d327",
+      {
+        "pageContent": "Q: How can I place an order?\nA: Customers can place an order through WhatsApp at +92 300 1234567.\n\nQ: What cake flavors are available?\nA: Available cake flavors include chocolate, vanilla, red velvet, strawberry, black forest, coffee, mango, Lotus Biscoff, Oreo, and pineapple. Availability may vary by day.",
+        "metadata": { "loc": { "lines": { "from": 334, "to": 338 } } }
+      }
+    ],
+    [
+      "2969d7ad-c8ba-4626-b306-bb1695952402",
+      {
+        "pageContent": "Q: Can I order a customized cake?\nA: Yes, customized cakes are available for birthdays, anniversaries, weddings, graduations, baby showers, engagements, corporate events, and other occasions.\n\nQ: How early should I order a customized cake?\nA: Customized cakes should generally be ordered at least 2 days in advance. Large or highly detailed cakes may require additional preparation time.",
+        "metadata": { "loc": { "lines": { "from": 340, "to": 344 } } }
+      }
+    ],
+    [
+      "53682026-dede-4983-878d-94526161ebf7",
+      {
+        "pageContent": "Q: What payment methods are accepted?\nA: Sweet Crumbs Bakery accepts Cash on Delivery, Bank Transfer, Easypaisa, and JazzCash.\n\nQ: Does the bakery deliver to DHA?\nA: Yes, DHA is one of the listed delivery areas. Delivery availability and charges depend on the exact location.\n\nQ: How long does delivery take?\nA: Regular orders generally take 45 to 90 minutes, depending on order size, traffic, and delivery location.",
+        "metadata": { "loc": { "lines": { "from": 346, "to": 353 } } }
+      }
+    ],
+    [
+      "0cfd4608-5103-47ca-aa30-3e3ae818df84",
+      {
+        "pageContent": "Q: Can I change my order?\nA: Order changes can be requested before preparation begins. Customized orders generally cannot be changed once preparation has started.\n\nQ: Does the bakery offer eggless cakes?\nA: The knowledge base does not currently confirm eggless cakes. Customers should contact the bakery through WhatsApp to ask about special dietary requirements.",
+        "metadata": { "loc": { "lines": { "from": 355, "to": 359 } } }
+      }
+    ],
+    [
+      "7f635dca-af7e-4bbb-9b9d-a093dd3f5616",
+      {
+        "pageContent": "Q: How can I contact the bakery?\nA: Customers can contact Sweet Crumbs Bakery through WhatsApp or phone at +92 300 1234567, or email orders@sweetcrumbs.example.\n\n--------------------------------------------------\nCHATBOT RESPONSE RULE\n--------------------------------------------------\n\nThe chatbot should answer customer questions using the information available in this knowledge base.",
+        "metadata": { "loc": { "lines": { "from": 361, "to": 368 } } }
+      }
+    ],
+    [
+      "f12ec2e7-9468-4790-80a7-530992203697",
+      {
+        "pageContent": "If the requested information is available in the knowledge base, the chatbot should provide the relevant answer clearly and accurately.\n\nIf the requested information is not available in the knowledge base, the chatbot should not invent or assume an answer. Instead, it should tell the customer that the information is not currently available and recommend contacting Sweet Crumbs Bakery through WhatsApp at +92 300 1234567.",
+        "metadata": { "loc": { "lines": { "from": 370, "to": 372 } } }
+      }
+    ],
+    [
+      "c4f76f2a-6ae9-41a6-aaa9-a25012e998db",
+      {
+        "pageContent": "For questions about current prices, item availability, special requests, or delivery charges, the chatbot should recommend contacting the bakery because these details may change.",
+        "metadata": { "loc": { "lines": { "from": 374, "to": 374 } } }
+      }
+    ]
+  ],
+  {
+    "0": "8eabda35-3e3e-4364-8426-5485999af590",
+    "1": "fe02a210-62ef-41bd-a223-087e1da2f63a",
+    "2": "a26ee6e3-8d0b-4643-b150-e1e049563ede",
+    "3": "e0951294-cbc2-48ef-8929-011504fad12f",
+    "4": "62865397-9974-4aac-9fcc-a0345234da0b",
+    "5": "096db11f-b89e-4444-ae7a-1ef3f7664cd6",
+    "6": "3c693c97-fdc3-485a-8966-7fff19304783",
+    "7": "4fe24e5b-7c70-4a25-a39c-a05375847779",
+    "8": "e7b984e0-0bcd-46af-9701-86473c9fe7a3",
+    "9": "ed001fd1-09fe-472c-82f0-09751fc09c07",
+    "10": "752f7cef-2c0d-40b3-a600-e3a5973c44cc",
+    "11": "e6e8937f-5014-4e95-91d3-ad5794002379",
+    "12": "14224832-395b-4915-8626-d1f07752c237",
+    "13": "6c472359-386d-495f-8589-d12849418750",
+    "14": "7821e691-5b08-4f0f-bc5c-6f6c712337f1",
+    "15": "895575d4-d91b-4b31-a90b-d9671b2b547a",
+    "16": "b0c81861-6738-4d15-974d-09c8b78e24ed",
+    "17": "897a6f2d-0370-4bd3-8f20-9ff9a6dfb555",
+    "18": "a217b03c-c00f-4a6f-9f03-abfa47d73ef1",
+    "19": "6545b133-ce8b-41d3-b032-3951c0953825",
+    "20": "0c3b1959-794c-4cfa-ad01-2e0482f6d327",
+    "21": "2969d7ad-c8ba-4626-b306-bb1695952402",
+    "22": "53682026-dede-4983-878d-94526161ebf7",
+    "23": "0cfd4608-5103-47ca-aa30-3e3ae818df84",
+    "24": "7f635dca-af7e-4bbb-9b9d-a093dd3f5616",
+    "25": "f12ec2e7-9468-4790-80a7-530992203697",
+    "26": "c4f76f2a-6ae9-41a6-aaa9-a25012e998db"
+  }
+]

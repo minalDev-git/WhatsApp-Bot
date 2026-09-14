@@ -10,6 +10,7 @@ const embeddings = new HuggingFaceInferenceEmbeddings({
 });
 
 export async function initializeVectorstore(chunks) {
+  // console.log(chunks.find((doc) => doc.pageContent === undefined));
   // Create the vectorstore from documents
   const vectorStore = await FaissStore.fromDocuments(chunks, embeddings);
   await vectorStore.save(output_dir);

@@ -243,17 +243,6 @@ LLM retrieves memory and responds:
 Assistant: Your name is Ahmed.
 ```
 
-## Future Improvements
-
-- **Delivery & Tracking**: Integrate order management system with delivery tracking
-- **Payment Integration**: Support WhatsApp pay or payment gateway links
-- **Dynamic Menu Updates**: Allow admins to update knowledge base without code changes
-- **Sentiment Analysis**: Detect customer satisfaction and route escalations to human agents
-- **Multi-Language Support**: Translate responses for broader customer base
-- **Analytics Dashboard**: Track bot performance, common queries, and user patterns
-- **Proactive Notifications**: Send order status updates and special offers automatically
-- **Image Recognition**: Process food photos and identify cakes/items from images
-
 ## Notes
 
 - **Baileys** is an unofficial WhatsApp Web client. Great for learning and demos, but keep test traffic light. Don't use for bulk messaging—WhatsApp can ban the number.

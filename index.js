@@ -15,8 +15,9 @@ import { ChatGroq } from "@langchain/groq";
 import { HumanMessage, AIMessage } from "@langchain/core/messages";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import { getChatHistory, saveMessage } from "./memory/chat_memory.js";
-import { getMemoryObject, saveFacts } from "./memory/user_memory.js";
-import { extractFacts } from "./memory/extractor.js";
+import { getMemoryByQuery, saveFacts } from "./memory/user_memory.js";
+import { analyzeMessage } from "./memory/analyzer.js";
+// import { extractFacts } from "./memory/extractor.js";
 import systemPrompt from "./prompts/system_prompt.js";
 import { getRelevantDocs } from "./rag/rag_pipeline.js";
 
@@ -46,18 +47,30 @@ const prompt = ChatPromptTemplate.fromMessages([
   ],
 ]);
 
+async function retrieval(analysis, sessionId, message) {
+  let memory = {};
+
+  if (analysis.needs_memory) {
+    memory = getMemoryByQuery(sessionId, analysis.memory_query);
+  }
+
+  let context = "";
+
+  if (analysis.needs_rag) {
+    context = await getRelevantDocs(message);
+  }
+
+  return {
+    memory: memory,
+    context: context,
+  };
+}
+
 async function getReply(message, sessionId) {
   // 1. Save the user's message
   saveMessage(sessionId, "user", message);
 
-  // 2. Extract and store personal facts
-  const facts = await extractFacts(message);
-
-  if (Object.keys(facts).length > 0) {
-    await saveFacts(sessionId, facts);
-  }
-
-  // 3. Load recent chat history
+  // 2. Load recent chat history
 
   const history = getChatHistory(sessionId).map((msg) =>
     msg.role === "user"
@@ -65,15 +78,22 @@ async function getReply(message, sessionId) {
       : new AIMessage(msg.message),
   );
 
-  // 4. Load personal memory
-  const memory = await getMemoryObject(sessionId);
+  const analysis = await analyzeMessage(message);
 
-  console.log("Query:", message);
+  console.log("Analysis:", analysis);
 
-  // 5. Retrieve relevant RAG context
-  const context = await getRelevantDocs(message);
+  // 3. Conditionally save newly detected personal facts
+  if (Object.keys(analysis.facts).length > 0) {
+    await saveFacts(sessionId, analysis.facts);
+  }
 
-  // 6. Invoke the LLM
+  // 4. Conditionally retrieve RAG docs and/or Personal Memory when needed
+  const retrieved_obj = await retrieval(analysis, sessionId, message);
+  const memory = retrieved_obj.memory;
+  const context = retrieved_obj.context;
+  console.log(retrieved_obj);
+
+  // 5. Invoke the LLM
   const chain = prompt.pipe(model).pipe(new StringOutputParser());
   console.log(prompt.inputVariables);
   const response = await chain.invoke({
@@ -86,7 +106,7 @@ async function getReply(message, sessionId) {
     context: context || "",
   });
 
-  // 7. Save the assistant's reply
+  // 6. Save the assistant's reply
   saveMessage(sessionId, "assistant", response);
 
   return response;

@@ -27,15 +27,21 @@ function getUserMemory(userId) {
   return stmt.all(userId);
 }
 
-// Saves multiple extracted user facts (key-value pairs) into the user_memory table.
-export async function saveFacts(userId, facts) {
-  for (const [key, value] of Object.entries(facts)) {
-    upsertMemory(userId, key, JSON.stringify(value));
-  }
+function getMemoryValue(userId, key) {
+  const stmt = db.prepare(`
+    SELECT value
+    FROM user_memory
+    WHERE user_id = ? AND key = ?
+    LIMIT 1
+  `);
+
+  const row = stmt.get(userId, key);
+
+  return row ? row.value : null;
 }
 
 // Retrieves all stored user facts and returns them as a single JavaScript object.
-export async function getMemoryObject(userId) {
+async function getMemoryObject(userId) {
   const rows = getUserMemory(userId);
 
   const memory = {};
@@ -49,4 +55,42 @@ export async function getMemoryObject(userId) {
   }
 
   return memory;
+}
+
+// Saves multiple extracted user facts (key-value pairs) into the user_memory table.
+export async function saveFacts(userId, facts) {
+  for (const [key, value] of Object.entries(facts)) {
+    upsertMemory(userId, key, JSON.stringify(value));
+  }
+}
+
+export function getMemoryByQuery(userId, memoryQuery) {
+  // Retrieve all personal facts.
+  if (memoryQuery === "ALL") {
+    return getMemoryObject(userId);
+  }
+
+  // Retrieve one specific personal fact.
+  if (typeof memoryQuery === "string") {
+    const value = getMemoryValue(userId, memoryQuery);
+
+    return value !== null ? { [memoryQuery]: value } : {};
+  }
+
+  // Retrieve multiple specific personal facts.
+  if (Array.isArray(memoryQuery)) {
+    const memory = {};
+
+    for (const key of memoryQuery) {
+      const value = getMemoryValue(userId, key);
+
+      if (value !== null) {
+        memory[key] = value;
+      }
+    }
+
+    return memory;
+  }
+
+  return {};
 }

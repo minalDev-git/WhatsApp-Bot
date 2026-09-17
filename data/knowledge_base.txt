@@ -361,14 +361,4 @@ A: The knowledge base does not currently confirm eggless cakes. Customers should
 Q: How can I contact the bakery?
 A: Customers can contact Sweet Crumbs Bakery through WhatsApp or phone at +92 300 1234567, or email orders@sweetcrumbs.example.
 
---------------------------------------------------
-CHATBOT RESPONSE RULE
---------------------------------------------------
-
-The chatbot should answer customer questions using the information available in this knowledge base.
-
-If the requested information is available in the knowledge base, the chatbot should provide the relevant answer clearly and accurately.
-
-If the requested information is not available in the knowledge base, the chatbot should not invent or assume an answer. Instead, it should tell the customer that the information is not currently available and recommend contacting Sweet Crumbs Bakery through WhatsApp at +92 300 1234567.
-
 For questions about current prices, item availability, special requests, or delivery charges, the chatbot should recommend contacting the bakery because these details may change.
